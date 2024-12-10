@@ -32,4 +32,4 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add csv/dataframe.csv
           git commit -m "Add generated CSV file"
-          git push https://x-access-token:${GH_PAT}@github.com/<USERNAME>/<REPO>.git
+          git push https://x-access-token:${GH_PAT}@github.com/gusascorrea/teste_actions.git
