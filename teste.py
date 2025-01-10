@@ -1,4 +1,5 @@
 import os
+
 import pandas as pd
 
 # Criar diretório 'csv' se não existir
