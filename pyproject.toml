@@ -20,7 +20,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.taskipy.tasks]
 format = """
-isort main.py
-black main.py
-flake8 main.py
+isort teste.py
+black teste.py
+flake8 teste.py
 """
