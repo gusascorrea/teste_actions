@@ -6,7 +6,7 @@ import pandas as pd
 os.makedirs("csv", exist_ok=True)
 
 # Criar data frame aleatório
-df = pd.DataFrame({"A": [1, 2, 3], "B": [4,50,6], "C": [7, 8, 9]})
+df = pd.DataFrame({"A": [1, 2, 3], "B": [4, 50, 6], "C": [7, 8, 9]})
 # Salvar data frame em arquivo CSV
 df.to_csv("csv/dataframe.csv", index=False)
 
